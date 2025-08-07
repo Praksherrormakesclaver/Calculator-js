@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    background: linear-gradient(135deg,  #0dd2ff, #3e8eff,rgb(0, 255, 247), rgb(255, 57, 186)
+    );
+  }
+
+  .header,h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(6, 6, 6, 0.3);
+  }
+  h1 {
+    margin-right: 20px;
+    font-size: 0.9em;
+    font-style: bold;
+    font-family: poppins, sans-serif;
+  }
+
+  .calculator {
+    width: 250px;
+    background-color: #fefefe;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    animation: slideIn 0.7s ease-out;
+  }
+  
+  #display {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #e0e4e8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #d1d6dc;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+
+  button:nth-child(4n) {
+    background-color: #3a7bd5;
+    color: #fff;
+  }
+  
+  button:nth-child(4n):hover {
+    background-color: #326cb1;
+  }
+  
+  button:nth-child(16) {
+    background-color: #00d2ff;
+    color: #fff;
+  }
+  
+  button:nth-child(16):hover {
+    background-color: #00bfff;
+  }
+  
+  /* Slide-in animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+  @keyframes header{
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.header{
+  display: inline-block;
+  animation: header 1s infinite;
+}
+  @keyframes header {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .calculator {
+      width: 90%;
+      padding: 10px;
+    }
+    
+    #display {
+      height: 40px;
+      font-size: 1.2em;
+    }
+    
+    button {
+      padding: 10px;
+      font-size: 1em;
+    }
+  }
+
+  
