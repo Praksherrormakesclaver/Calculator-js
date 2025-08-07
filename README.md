@@ -1,20 +1,19 @@
-Web Calculator
+⚙️ Simple Web Calculator
 
+A sleek and functional web-based calculator created using HTML, CSS, and Vanilla JavaScript. This project allows users to perform real-time calculations with a smooth and intuitive interface. Great for beginners to practice front-end skills and JavaScript logic building.
 
-A responsive and interactive calculator built using HTML, CSS, and JavaScript. This project performs basic arithmetic operations like addition, subtraction, multiplication, and division. It features a clean user interface and is ideal for learning DOM manipulation and event handling in JavaScript.
+✨ Highlights:
+Clean and minimal UI
 
-💡 Features:
-User-friendly interface
+Real-time input and calculation
 
-Basic arithmetic functions
+Lightweight, no libraries or frameworks
 
-Responsive layout
+Fully responsive design
 
-Pure front-end (no frameworks)
+🔧 Built With:
+HTML5 for structure
 
-🛠️ Technologies Used:
-HTML – Structure
+CSS3 for styling and layout
 
-CSS – Styling and layout
-
-JavaScript – Logic and interactivity
+JavaScript for dynamic functionality
