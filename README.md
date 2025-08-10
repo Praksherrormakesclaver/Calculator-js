@@ -5,6 +5,9 @@ A sleek and functional web-based calculator created using HTML, CSS, and Vanilla
 ✨ Highlights:
 Clean and minimal UI
 
+<img width="1366" height="684" alt="Calculator" src="https://github.com/user-attachments/assets/64bfa8a2-dc12-4815-af50-e9b3130e78af" />
+
+
 Real-time input and calculation
 
 Lightweight, no libraries or frameworks
